@@ -40,4 +40,4 @@ jupyter notebook
 In the notebook, change the kernel to `devops-metrics`.
 
 ## Licence
-MIT Licence.
+MIT Licence. 
