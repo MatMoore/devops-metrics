@@ -8,12 +8,14 @@ We want short lead times, high deployment frequency, low MTTR and low change fai
 
 These metrics were popularised by the "Accelerate" book and are measured industry wide in the [State of DevOps Report](https://cloud.google.com/devops).
 
-Not all of these can be measured from Github data. Lead time should cover the time it takes from requesting something to delivering it, and mean time to recovery isn't visible from this data at all. However, the github data can show us how quickly work progresses through the code review process.
+Not all of these can be measured from Github data. Lead time should cover the time it takes from requesting something to delivering it, and mean time to recovery isn't visible from this data at all. However, the github data can show us how quickly work progresses through the code review process, and how frequently we are releasing stuff.
 
 We could potentially supplement this with data from Jira and Service Now.
 
 ## Running the notebook
 ### Dependencies
+This notebook assumes python 3.7.4 or later.
+
 Install dependencies using pipenv:
 
 ```
